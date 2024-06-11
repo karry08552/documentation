@@ -1,0 +1,98 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "Partner CoCloud",
+
+  "favicon": "/favicon.svg",
+  "colors": {
+    "primary": "#6d0dc7",
+    "light": "#b681e7",
+    "dark": "#0D9373",
+    "anchors": {
+      "from": "#0D9373",
+      "to": "#07C983"
+    }
+  },
+  "topbarLinks": [
+    {
+      "name": "Support",
+      "url": "mailto:hi@mintlify.com"
+    }
+  ],
+
+
+  "navigation": [
+    {
+      "group": "",
+      "pages": [
+        { "group": "Introduction",
+        "pages":["introduction/introduction","introduction/features"]
+      },
+        { "group": "Getting Started",
+          "pages":[
+            "getting-started/setup_account",
+            "getting-started/onboarding_process",
+            "getting-started/install_exes",
+            "getting-started/data_upload",
+            "getting-started/license_reactivation",
+            "getting-started/export_documents",
+            "getting-started/printing"
+          ]
+        },
+        { "group": "Guides",
+        "pages":[
+          {
+            "group":"Admin Guide",
+            "pages":[
+              "guides/admin_guide/user_management",
+              "guides/admin_guide/live_status",
+              "guides/admin_guide/app_management",
+              {
+                "group":"Logs Management",
+                "pages":[
+                  "guides/admin_guide/log_management/logs_management",
+                  "guides/admin_guide/log_management/user_logs_management",
+                  "guides/admin_guide/log_management/audit_logs_management"
+
+                  ]
+              },
+              "guides/admin_guide/file_manager"
+              ]
+          },{
+            "group":"User Guide",
+            "pages":[
+              "guides/user_guide/login"
+              ]
+            },
+            "guides/raise_service",
+            "guides/account_management",
+            "guides/reset_password"
+          ]
+      },
+      { "group": "Troubleshooting",
+      "pages":[
+        "troubleshooting/troubleshooting_overview",
+        "troubleshooting/login",
+        "troubleshooting/printing",
+        "troubleshooting/hanging",
+        "troubleshooting/data",
+        "troubleshooting/tally"
+      ]
+    },
+        "integration",
+        "security",
+        "backups",
+        "faqs",
+        "contact_and_support",
+        "updates_and_release",
+        "community_and_resouces",
+        "feedback_and_suggestions"
+      ]
+      
+    }
+  ],
+  "footerSocials": {
+    "x": "https://x.com/mintlify",
+    "github": "https://github.com/mintlify",
+    "linkedin": "https://www.linkedin.com/company/mintsearch"
+  }
+}

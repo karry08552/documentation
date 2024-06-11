@@ -1,0 +1,34 @@
+---
+title: "Hanging Issues"
+description: "Things to be checked from user end."
+---
+
+<Accordion title="Internet Connectivity Test">
+Perform a ping test to confirm local internet connectivity.<br />
+   Would you like to learn how to check for connectivity issues? <a href="/faqs#what-exactly-is-a-ping-drop-and-how-can-one-determine-if-it-has-occurred">Click Here</a>
+   </Accordion>
+<Accordion title="Hanging Problem Caused by TDL Execution">
+
+If a user experiences hanging issues and the user's local internet connection being stable, and all Tally dump files (.dmp), temporary files (.tmp), and capsule files (.cap) have been cleaned, the cause may lie in TDL (Tally Definition Language) issues.
+
+If the user is performing normal Tally entries without engaging in heavy workloads, the hanging issue might be attributed to a TDL-related problem, especially if multiple TDLs are loaded in Tally.
+
+To identify the specific TDL causing the hanging issue, systematically remove TDLs one by one. Upon pinpointing the problematic TDL, it's advisable to contact the TDL developer for resolution.
+
+<Note>
+
+Hanging issues associated with TDLs can arise due to poorly written code by the TDL developer or the presence of heavy code within the TDLs.
+</Note>
+
+</Accordion>
+
+
+
+<Accordion title="Hanging Due to Concurrency Issues">
+Hanging due to concurrency issues refers to a situation where the system becomes unresponsive or stalls because multiple processes or threads are attempting to access shared resources simultaneously.<br />
+ Would you like to know more about Concurrency issues ? <a href="/faqs#what-constitutes-a-concurrency-issue"> Click Here </a>
+</Accordion>
+
+<Accordion title="Data Size">
+If data spans multiple years, it can also have an impact. Consider splitting the data.
+</Accordion>
