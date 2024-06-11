@@ -30,12 +30,15 @@
         { "group": "Getting Started",
           "pages":[
             "getting-started/setup_account",
-            "getting-started/onboarding_process",
-            "getting-started/install_exes",
-            "getting-started/data_upload",
-            "getting-started/license_reactivation",
-            "getting-started/export_documents",
-            "getting-started/printing"
+            "getting-started/customer",
+            "getting-started/cloud_user",
+            "getting-started/salesperson",
+            "getting-started/subscription",
+            "getting-started/branding",
+            "getting-started/billing",
+            "getting-started/audit_log",
+            "getting-started/service_request"
+
           ]
         },
         { "group": "Guides",
