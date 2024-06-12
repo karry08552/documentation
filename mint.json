@@ -31,9 +31,9 @@
           "pages":[
             "getting-started/setup_account",
             "getting-started/customer",
-            "getting-started/cloud_user",
-            "getting-started/salesperson",
+            "getting-started/user_and_roles",
             "getting-started/subscription",
+            "getting-started/cloud_user",
             "getting-started/branding",
             "getting-started/billing",
             "getting-started/audit_log",
